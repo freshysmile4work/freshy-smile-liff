@@ -25,9 +25,9 @@ async function main(){
 
     const profile=await liff.getProfile();
 
-    const formUrl=
-    "https://docs.google.com/forms/d/e/1FAIpQLSdJURpynPs09wEUFumBMMgiVjaPLGx0IzQbk20Q9s_tv_kcHg/viewform?usp=pp_url"+
-    "&entry.1322453872="+encodeURIComponent(profile.userId);
+    const formUrl =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdJURpynPs09wEUFumBMMgiVjaPLGx0IzQbk20Q9s_tv_kcHg/viewform?usp=pp_url" +
+  "&entry.1322453872=" + encodeURIComponent(profile.userId);
 
     window.location.href=formUrl;
 
